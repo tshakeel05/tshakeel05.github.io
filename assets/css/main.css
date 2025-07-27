@@ -3885,6 +3885,7 @@ input, select, textarea {
 			margin-top: 1em;
 			border-top: 1px solid #eee;
 			padding-top: 0.5em;
+			white-space: nowrap
 		}
 
 		.dropdown-card summary {
@@ -3903,6 +3904,7 @@ input, select, textarea {
 			padding: 0.3em 0.6em;
 			border-radius: 12px;
 			margin-left: 0.5em;
+			
 		}
 
 		/* === Scrolling Coursework Animation === */
@@ -3913,6 +3915,7 @@ input, select, textarea {
 			max-width: 1000px;
 			margin: 2em auto;
 			position: relative;
+			padding: 1em 0;
 		}
 		
 		.scrolling-coursework {
@@ -3934,6 +3937,18 @@ input, select, textarea {
 			margin-right: 1em;
 			border-radius: 2em;
 			font-size: 0.9em;
+			transition: transform 0.3s ease;
+		}
+
+		/* Scale up when hovered */
+		.course-tag:hover {
+			transform: scale(1.1);
+			z-index: 1;
+		}
+
+		/* Pause animation when any tag is hovered */
+		.coursework-container:hover .scrolling-track {
+			animation-play-state: paused;
 		}
 		
 		@keyframes scroll-left {
