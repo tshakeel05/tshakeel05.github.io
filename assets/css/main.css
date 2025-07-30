@@ -3873,7 +3873,7 @@ input, select, textarea {
 		}
 
 		.edu-card {
-			flex: 1 1 400px;
+			flex: 1 1 450px;
 			background: #fff;
 			border: 1px solid #ccc;
 			border-radius: 8px;
@@ -3885,25 +3885,31 @@ input, select, textarea {
 			margin-top: 1em;
 			border-top: 1px solid #eee;
 			padding-top: 0.5em;
-			white-space: nowrap
+			/*white-space: nowrap;*/
+			white-space: normal; /* Allow text to wrap */
+    		overflow: hidden; /* Prevent horizontal overflow */
 		}
 
 		.dropdown-card summary {
 			cursor: pointer;
 			margin-bottom: 0.5em;
+			
+			
 		}
 
 		.dropdown-card p {
 			margin-top: 0.5em;
+
 		}
 
 		.badge {
 			background-color: #b06e93;
 			color: #fff;
 			font-size: 0.75em;
-			padding: 0.3em 0.6em;
-			border-radius: 12px;
-			margin-left: 0.5em;
+			padding: 0.3em 0.2em;
+			border-radius: 10px;
+			margin-left: -0.1em;
+			white-space: nowrap;
 			
 		}
 
