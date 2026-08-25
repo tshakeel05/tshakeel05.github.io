@@ -27,6 +27,7 @@
 						<p>Engineer with practical experience in machine 
 							learning, data analysis, and product development — driven 
 							by curiosity and a focus on building innovative solutions.</p>
+						<p class="contact">Legal Permanent Resident (U.S. Citizen) &nbsp;|&nbsp; (314) 745-2515 &nbsp;|&nbsp; <a href="mailto:tshakeel@andrew.cmu.edu">tshakeel@andrew.cmu.edu</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/taha-shakeel">linkedin.com/in/taha-shakeel</a> &nbsp;|&nbsp; <a href="https://tshakeel05.github.io">tshakeel05.github.io</a></p>
 					</header>
 
 				<!-- Nav -->
@@ -76,39 +77,53 @@
 									<h2>Work Experience</h2>
 								</header>
 								<div class="job-list">
+									<!-- Job 0 -->
+									<div class="job-card">
+										<h3><strong>Machine Learning Engineering Intern</strong></h3>
+										<p class="subheader"><strong>Morningstar</strong> <br>
+											Jun 2026 – Aug 2026</p>
+										<ul>
+											<li>Implemented a PPO reinforcement learning agent for lifecycle consumption and equity-allocation optimization under CRRA preferences, reducing training time by 54% and capturing 96% of optimal expected lifetime utility.</li>
+											<li>Extended a regression model for retirement portfolio construction to adjust for private markets pricing and illiquidity.</li>
+											<li>Operationalized lifecycle income-process research into a Monte Carlo forecasting engine modeling AR(1) dynamics, transitory shocks, and equity-market effects to generate salary paths for retirement outcome simulations.</li>
+										</ul>
+										<span class="course-tag">Reinforcement Learning</span>
+										<span class="course-tag">Pytorch</span>
+										<span class="course-tag">Monte Carlo</span>
+										<span class="course-tag">Research</span>
+									</div>
 									<!-- Job 1 -->
 									<div class="job-card">
 										<h3><strong>Software Engineer Intern</strong></h3>
 										<p class="subheader"><strong>Stereotaxis</strong> <br>
-											May 2025 – Jan. 2025</p>
+											May 2025 – Jan 2026</p>
 										<ul>
-											<li>Built an automated remittance email system for thousands of invoices using SQL and the Messaging API, streamlining payment notifications and saving the accounting team at least 5 hours weekly.</li>
-											<li>Built interactive dashboards in Excel and Power BI to monitor overdue invoices, enabling targeted recovery actions that recouped over 2 million dollars in outstanding revenue</li>
-											<li>Automated a high-volume invoice approval workflow using Power Automate, reducing average processing time by 87% and increasing scalability across finance operations</li>
+											<li>Saved accounting team 5+ hours/week by building an automated invoice-remittance notification system (SQL, Messaging API), eliminating manual email tracking for 300+ invoices/month.</li>
+											<li>Built interactive dashboards in Excel and Power BI to monitor overdue invoices, enabling targeted recovery actions that recouped over $2M in receivables.</li>
+											<li>Automated a high-volume invoice approval workflow using Power Automate, reducing average processing time by 87% and improving scalability across finance operations.</li>
 										</ul>
 										<span class="course-tag">SQL</span>
 										<span class="course-tag">Power Automate</span>
 										<span class="course-tag">APIs</span>
 										<span class="course-tag">Power BI</span>
 										<span class="course-tag">Excel</span>
-										<span class="course-tag">Acounting</span>
+										<span class="course-tag">Accounting</span>
 									</div>
 
 									<!-- Job 2 -->
 									<div class="job-card">
-										<h3><strong>Lead Teaching Assistant</strong></h3>
+										<h3><strong>Head Teaching Assistant</strong></h3>
 										<p class="subheader"><strong>Carnegie Mellon University</strong> <br>
 											January 2025 – Present</p>
 										<ul>
-											<li>Deliver weekly lectures to 2 classes of 20 students to reinforce class topics such as data structures and algorithms in Python</li>
-											<li>Evaluate assignments, quizzes, and test, and offer individualized support for hundreds of students </li>
-											<li>Lead a team of 40+ TAs in coordinating course logistics and grading</li>
+											<li>Create course assignments and lecture content for a coding-with-AI course, regularly integrating new AI capabilities.</li>
+											<li>Lecture 150+ students on building a RAG agent for a 300-page document, covering retrieval architecture and prompt engineering.</li>
+											<li>Coordinate a team of 40+ TAs, streamlining instruction and grading workflows to enhance course efficiency.</li>
 										</ul>
 										<span class="course-tag">Python</span>
-										<span class="course-tag">Communication</span>
+										<span class="course-tag">Prompt Engineering</span>
 										<span class="course-tag">Leadership</span>
 										<span class="course-tag">Teaching</span>
-										<span class="course-tag">Prompt Engineer</span>
 									</div>
 
 									<!-- Job 3 -->
@@ -141,10 +156,7 @@
 									<!-- Project 1 -->
 									<div class="project-card">
 										<h3><strong>2-D ShellShock</strong></h3>
-										<p>Developed a 2D turn-based tank artillery game using Python, inspired by ShellShock Live. Players battle an AI on terrain
-											 generated via recursive point creation and linear interpolation for smooth rendering. Projectile motion, calculated with vector math 
-											 for gravity and wind, uses 3D vector calculus for precise collision detection with bumpers and portals. The AI, built with modular 
-											 difficulty logic, employs strategic aiming, movements, and shot selection. A dynamic UI with trigonometric fuel gauges and gradients showcases a user-focused design.</p>
+										<p>Built a physics-accurate 2D artillery engine in Python (vector-based projectile motion, wind resistance, terrain collision) from scratch, supporting 8+ simultaneous physics bodies — no game engine used. Implemented a modular AI opponent with adaptive difficulty and strategic shot selection to enhance gameplay.</p>
 										<footer class="card-footer">
 											<a href="https://github.com/tshakeel05/ShellShock" class="button small">View</a>
 										</footer>
@@ -152,13 +164,10 @@
 
 									<!-- Project 2 -->
 									<div class="project-card">
-										<h3><strong>Titanic Survival Prediction</strong></h3>
-										<p>Developed a machine learning project in R to predict Titanic passenger survival using a dataset with 622 observations and six predictors.
-											Conducted extensive exploratory data analysis and implemented and compared Linear Discriminant Analysis, Quadratic Discriminant Analysis, Classification Tree, 
-											and Binary Logistic Regression, evaluating error rates to determine predictive power.
-										</p>
+										<h3><strong>Spotify Hit Analysis</strong></h3>
+										<p>Analyzed 4,600+ Spotify tracks to identify drivers of streaming success using statistical analysis and feature engineering in R. Reduced dimensionality with PCA and hierarchical clustering to surface latent factors associated with top-performing songs.</p>
 										<footer class="card-footer">
-											<a href="https://tshakeel05.github.io/assets/pdfs/Titanic-Project.pdf" class="button small">View</a>
+											<a href="https://tshakeel05.github.io/assets/pdfs/Spotify-Hit-Analysis.pdf" class="button small">View</a>
 										</footer>
 									</div>
 
@@ -182,8 +191,8 @@
 								<header class="major">
 									<h2>Education</h2>
 									<p><strong>Bachelor of Science in Statistics and Machine Learning</strong><br>
-										Carnegie Mellon University<br>
-										Aug 2024 – May 2027</p>
+									Carnegie Mellon University<br>
+									Expected May 2028</p>
 								</header>
 
 								<!-- Coursework -->
@@ -221,7 +230,7 @@
 								<div class="edu-grid">
 									<div class="edu-card">
 										<h3>Academic Highlights</h3>
-										<p><strong>GPA:</strong> 4.0/4.0</p>
+										<p><strong>GPA:</strong> 3.94/4.0</p>
 										<p><strong>Major:</strong> Statistics and Machine Learning</p>
 										<p><strong>Minor:</strong> Financial Management</p>
 										<p><strong>Honors:</strong> Dean's List High Honors</p>
